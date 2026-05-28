@@ -12,6 +12,12 @@ This repository contains all production files to date, plus special 3D-print fil
 3. The STLs come in two options: the **lamp version**, or for the r**egular version** (empty inside), which is simpler.
 4. The lamp version requires a custom PCB, a step-down voltage module, and a power inlet. Because of these custom components, a full reproduction of the lamp from this repo is not possible in its current state.
 
+IMPORTANT: Current dimensions are 192x192x256 mm for the lamp, change the scale for regular version, since the lamp has mounting holes for M3 screws and other components.
+
+## What's in this repository?
+In short, the STLs I made so far, as well as some of the design files and software for ESP32 XIAO module. They are separated in two dedicated folders: firmware and hardware.
+The firmware was used in the Arduino IDE for flashing the program there, and the hardware was designed in the KiCad, dedicated open-source PCB design software. 
+
 ## Plans for the future:
 
 The repo won't have a complete support and maintained actively, because of the real life stuff.
